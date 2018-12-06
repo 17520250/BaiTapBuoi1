@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài tập 1 Form</title>
+</head>
+<body>
+	<a href="#">Quay lại trang chủ</a>	
+	<form action="abc.asp">
+		<table align="center">
+			<tr>
+				<th colspan="2"><h1>Đăng kí mua hàng</h1></th>
+			</tr>
+			<tr>
+				<td>Tài khoản:</td>
+				<td>
+					<input type="text" placeholder="Vui lòng nhập họ tên">
+				</td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td>
+					<input type="password" placeholder="Nhập pass dễ thôi">
+				</td>
+			</tr>
+			<tr>
+				<td>SĐT:</td>
+				<td>
+					<input type="number" placeholder="Chỉ nhập số">
+				</td>
+			</tr>
+			<tr>
+				<td>Sản phẩm:</td>
+				<td>
+					<select name="sanpham" id="#">
+						<option value="MD">Mứt dâu</option>
+						<option value="MC">Mứt chuối</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Địa điểm nhận hàng</td>
+				<td>
+					<input type="radio" name="Diadiem" value="ktxa" checked>KTX khu A
+					<input type="radio" name="Diadiem" value="ktxb" >KTX khu B
+				</td>
+			</tr>
+			<tr>
+				<td>Thời gian giao hàng:</td>
+				<td>
+					<input type="checkbox" name="time" value="giaongay">
+					Giao ngay
+				</td>
+			</tr>
+			<tr>
+				<td>Ghi chú:</td>
+				<td>
+					<textarea name="ghichu" id="" cols="20" rows="8"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<th colspan="2">
+					<input type="submit" name="btnSend" value="Gửi">					
+					<input type="reset" name="btnReset" value="Nhập lại">
+				</th>
+			</tr>
+		</table>
+	</form>		
+</body>
+</html>
